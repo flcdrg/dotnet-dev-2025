@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winforms", "winforms\winfor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wpf", "wpf\wpf.csproj", "{2D586DAA-3CF2-418B-A42F-D0500B21CCB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "avaloniademo", "avalonia\avaloniademo.csproj", "{FB1BFE7B-594B-22B9-14C9-33813BE5B033}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{2D586DAA-3CF2-418B-A42F-D0500B21CCB4}.Release|x64.Build.0 = Release|Any CPU
 		{2D586DAA-3CF2-418B-A42F-D0500B21CCB4}.Release|x86.ActiveCfg = Release|Any CPU
 		{2D586DAA-3CF2-418B-A42F-D0500B21CCB4}.Release|x86.Build.0 = Release|Any CPU
+		{FB1BFE7B-594B-22B9-14C9-33813BE5B033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1BFE7B-594B-22B9-14C9-33813BE5B033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1BFE7B-594B-22B9-14C9-33813BE5B033}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FB1BFE7B-594B-22B9-14C9-33813BE5B033}.Debug|x64.Build.0 = Debug|Any CPU
+		{FB1BFE7B-594B-22B9-14C9-33813BE5B033}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FB1BFE7B-594B-22B9-14C9-33813BE5B033}.Debug|x86.Build.0 = Debug|Any CPU
+		{FB1BFE7B-594B-22B9-14C9-33813BE5B033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1BFE7B-594B-22B9-14C9-33813BE5B033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1BFE7B-594B-22B9-14C9-33813BE5B033}.Release|x64.ActiveCfg = Release|Any CPU
+		{FB1BFE7B-594B-22B9-14C9-33813BE5B033}.Release|x64.Build.0 = Release|Any CPU
+		{FB1BFE7B-594B-22B9-14C9-33813BE5B033}.Release|x86.ActiveCfg = Release|Any CPU
+		{FB1BFE7B-594B-22B9-14C9-33813BE5B033}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
