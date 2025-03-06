@@ -1,0 +1,15 @@
+services:
+  db:
+    container_name: dotnet-sql-server
+    image: chriseaton/adventureworks:latest
+    ports:
+      - "1433:1433"
+
+    environment:
+      MSSQL_SA_PASSWORD: yourStrong(!)Password
+      SA_PASSWORD: yourStrong(!)Password
+      ACCEPT_EULA: "Y"
+    volumes:
+      - ./.volumes/mssql/data:/var/opt/mssql/data
+      - ./.volumes/mssql/log:/var/opt/mssql/log
+      - ./.volumes/mssql/secrets:/var/opt/mssql/secrets
